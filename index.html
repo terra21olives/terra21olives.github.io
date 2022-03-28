@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Terra 21 Olives</title>
+  <script src="https://kit.fontawesome.com/dc6deb9381.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid p-0">
+      <nav style="background-color: rgb(0, 56, 0); margin-bottom: 6em;" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img style="padding-right: 15px; filter: invert(100%); max-width: 100px;" src="../assets/logo.png" />Terra 21
+          &nbsp;&nbsp;<span class="text-light">by Lazaros Kalantzis</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#products" class="nav-link">PRODUCTS</a>
+                <div class="dropdown-content">
+                  <div class="dropdown-content">
+                    <a href="product-list.html" onclick="catredir('.vacuum');">Olives in vacuum
+                      bags</a>
+                    <a href="product-list.html" onclick="catredir('.pet');">Olives in plastic
+                      containers</a>
+                    <a href="product-list.html" onclick="catredir('.jar');">Olives in glass
+                      jars</a>
+                    <a href="product-list.html" onclick="catredir('.paste');">Olive paste</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#latest">NEW PRODUCTS</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <select class="selectpicker" data-width="fit" onchange="location = this.value;">
+                <option value="index.html" data-content='<span class="flag-icon flag-icon-us"></span> English'>English
+                </option>
+                <option value="index-gr.html" data-content='<span class="flag-icon flag-icon-gr"></span> Greek'>
+                  Greek</option>
+              </select>
+            </li>
+            <li style="padding-right: 20vmin;" class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div style="margin-bottom: 8em; margin-top: 8em; opacity: 0.7; background-color: rgb(4, 37, 4);"
+      class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 text-white text-center">
+          <h6>Olive Products</h6>
+          <h1>Terra 21 Olives</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus eum dignissimos ipsa sequi
+            expedita.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 d-flex align-items-center justify-content-center">
+          <img src="../assets/logo_full.png" class="img-fluid" alt="Logo" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <!-- Section 3 -->
+    <section class="section-3 container-fluid p-0">
+      <div style="background-color:darkolivegreen; padding-bottom: 6vmin;" class="purchase text-center">
+        <h1 id="products">Product Categories</h1>
+        <div class="cards">
+          <div class="d-flex flex-row justify-content-center flex-wrap">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title">Vacuum-sealed Olives</h5>
+                </div>
+                <div class="pricing">
+                  <img src="./assets/vacuum.jpeg" class="img-fluid" alt="" />
+                  <a href="product-list.html" onclick="catredir('.vacuum');"
+                    class="btn btn-dark px-5 py-2 primary-btn mb-5">Browse</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title">Olives in PET containers</h5>
+                </div>
+                <div class="pricing">
+                  <img src="./assets/pet.jpeg" class="img-fluid" alt="" />
+                  <a href="product-list.html" onclick="catredir('.pet');"
+                    class="btn btn-dark px-5 py-2 primary-btn mb-5">Browse</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title">Olives in Glass Jars</h5>
+                </div>
+                <div class="pricing">
+                  <img src="./assets/vazo.jpeg" class="img-fluid" alt="" />
+                  <a href="product-list.html" onclick="catredir('.jar');"
+                    class="btn btn-dark px-5 py-2 primary-btn mb-5">Browse</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <h5 class="card-title">Olive Paste in Glass Jars</h5>
+                </div>
+                <div class="pricing">
+                  <img src="./assets/pasta.jpeg" class="img-fluid" alt="" />
+                  <a href="product-list.html" onclick="catredir('.paste');"
+                    class="btn btn-dark px-5 py-2 primary-btn mb-5">Browse</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="content">
+
+      <div class="site-section mb-5">
+        <div class="container owl-2-style">
+
+          <h2 id="latest" class="text-center py-5">Latest Products</h2>
+
+          <div class="owl-carousel owl-2">
+            <div class="media-29101">
+              <a href="product-list.html" onclick="catredir('.vacuum');"><img src="./images/product_img_1.jpg"
+                  alt="Image" class="img-fluid"></a>
+              <h3 class="text-center">Product 1</h3>
+            </div>
+            <div class="media-29101">
+              <a href="product-list.html" onclick="catredir('.vacuum');"><img src="./images/product_img_2.jpg"
+                  alt="Image" class="img-fluid"></a>
+              <h3 class="text-center">Product 2</h3>
+            </div>
+            <div class="media-29101">
+              <a href="product-list.html" onclick="catredir('.jar');"><img src="./images/product_img_3.jpg" alt="Image"
+                  class="img-fluid"></a>
+              <h3 class="text-center">Product 3</h3>
+            </div>
+            <div class="media-29101">
+              <a href="product-list.html" onclick="catredir('.paste');"><img src="./images/product_img_7.jpg"
+                  alt="Image" class="img-fluid"></a>
+              <h3 class="text-center">Product 4</h3>
+            </div>
+            <div class="media-29101">
+              <a href="product-list.html" onclick="catredir('.paste');"><img src="./images/product_img_8.jpg"
+                  alt=" Image" class="img-fluid"></a>
+              <h3 class="text-center">Product 5</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background-color:rgb(0, 56, 0); color: gainsboro;" class="text-center text-lg-start">
+
+    <!-- Section: Links  -->
+    <section class="container-fluid p-0">
+      <div id="footer" class="row text-left">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <p>
+                <img src="./assets/logo.png" alt="" style="filter: invert(85%); max-width: 100px;" />
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Terra 21 by Lazaros Kalantzis
+                </h6>
+              </p>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+              </h6>
+              <p><i class="fas fa-home me-3"></i> Astakos, Aitoloakarnania 30006, GR</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                terra21olives@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 30 26460 41419</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color:darkolivegreen; margin-top: 6vmin;">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="./index.html">terra21olives.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box
+}
+
+.filter-button-group {
+    padding-bottom: 4vmin;
+}
+
+#search {
+    outline: none;
+    border: none;
+    display: inline-block
+}
+
+#burgundy {
+    color: rgb(153, 40, 59)
+}
+
+#orange,
+select,
+.btn {
+    color: orange
+}
+
+.fa-search {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 3px;
+    padding-right: 20px
+}
+
+.search-nav-item {
+    height: 40px
+}
+
+nav {
+    padding: 0px 100px
+}
+
+.fa-user-o,
+.fa-shopping-cart {
+    font-size: 20px;
+    padding: 4px
+}
+
+.form-group {
+    margin-bottom: 5px
+}
+
+label {
+    padding-left: 10px
+}
+
+.form-group:last-child {
+    margin-bottom: 0
+}
+
+h6 {
+    margin-bottom: 0px
+}
+
+#sort {
+    outline: none;
+    border: none
+}
+
+.btn {
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: #fff
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: orange
+}
+
+.card-body {
+    padding: 8px
+}
+
+.sign {
+    width: 25px;
+    height: 25px
+}
+
+.discount {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 65px;
+    position: absolute;
+    top: 2%
+}
+
+@media(min-width:1200px) {
+    #search {
+        width: 300px;
+        padding: 5px;
+        padding-left: 20px
+    }
+
+    .search-nav-item {
+        margin-left: 400px;
+        width: 350px
+    }
+
+    .fa-user-o {
+        margin-left: 300px
+    }
+
+    .text {
+        display: none
+    }
+
+    .fa-user-o,
+    .fa-shopping-cart {
+        font-size: 20px;
+        padding-left: 20px
+    }
+
+    #products {
+        width: 80%;
+        padding: 10px;
+        margin: 0;
+        float: right
+    }
+
+    .card {
+        width: 300px;
+        height: 330px;
+        border: none
+    }
+
+    .card-img-top {
+        width: 295px;
+        height: 200px;
+        border-radius: 10px
+    }
+
+    del {
+        padding-right: 2px
+    }
+
+    .filter,
+    #mobile-filter {
+        display: none
+    }
+
+    .product-img>img {
+        max-height: 30vmin;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    #search {
+        width: 300px;
+        padding: 5px;
+        padding-left: 20px
+    }
+
+    .search-nav-item {
+        margin-left: 200px;
+        width: 350px
+    }
+
+    .fa-user-o {
+        margin-left: 160px
+    }
+
+    .text {
+        display: none
+    }
+
+    #products {
+        width: 70%;
+        padding: 10px;
+        margin: 0;
+        float: right
+    }
+
+    .card {
+        width: 200px;
+        height: 330px;
+        border: none
+    }
+
+    .card-img-top {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px
+    }
+
+    .fa-plus,
+    .fa-minus {
+        font-size: 12px
+    }
+
+    .sign {
+        height: 25px
+    }
+
+    .price {
+        width: 99px
+    }
+
+    .filter,
+    #mobile-filter {
+        display: none
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #search {
+        width: 300px;
+        padding: 5px;
+        padding-left: 20px
+    }
+
+    .search-nav-item {
+        margin-left: 60px;
+        width: 350px
+    }
+
+    .fa-user-o {
+        margin-left: 80px
+    }
+
+    .text {
+        display: none
+    }
+
+    #products {
+        width: 65%;
+        padding: 10px;
+        margin: 0;
+        float: right
+    }
+
+    .card {
+        border: none
+    }
+
+    .filter,
+    #mobile-filter {
+        display: none
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .text {
+        display: none
+    }
+
+    .search-nav-item {
+        margin-left: 35px;
+        width: 270px
+    }
+
+    #search {
+        width: 240px;
+        padding: 5px;
+        padding-left: 20px
+    }
+
+    .fa-search {
+        padding: 3px;
+        font-size: 18px
+    }
+
+    #products {
+        width: 60%;
+        padding: 10px;
+        margin: 0;
+        float: right
+    }
+
+    .card {
+        border: none
+    }
+
+    #off {
+        padding-left: 2px
+    }
+
+    #sorting span,
+    #res {
+        font-size: 14px
+    }
+
+    .filter,
+    #mobile-filter {
+        display: none
+    }
+}
+
+@media(max-width:575px) {
+    .search-nav-item {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px
+    }
+
+    #search {
+        width: 80%;
+        padding-left: 10px;
+        margin-top: 10px;
+        padding-right: 10px
+    }
+
+    .fa-search {
+        padding: 10px;
+        font-size: 18px
+    }
+
+    .filter {
+        margin-left: 70%;
+        margin-top: 2%
+    }
+
+    #sorting,
+    #res {
+        font-size: 12px;
+        margin-top: 2%
+    }
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/ opacity */
+}
+
+/* Modal Dialog (modal) */
+.modal-dialog {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.modal-body {
+    position: relative;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+figure.zoom {
+    position: relative;
+    border: 5px solid white;
+    box-shadow: -1px 5px 15px black;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+figure.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+}
+
+figure.zoom img:hover {
+    opacity: 0;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+    padding: 20px 20px 20px 20px;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}

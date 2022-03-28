@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(121, 247, 178);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+  padding-right: 2em;
+}
+
+header #navbarNav {
+  padding-left: 3rem;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link {
+  color: white;
+}
+
+header .nav-link:hover {
+  color: rgb(202, 231, 98);
+}
+
+header .navbar-text {
+  color: white;
+  padding-left: 30vmin;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 30vmin;
+  padding-left: 4em;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 20vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background-image: url(../assets/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header .container-fluid .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container-fluid .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container-fluid .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container-fluid .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Section 3 */
+
+.purchase>h1 {
+  padding-top: 8vmin;
+  padding-bottom: 1.2em;
+  font-family: var(--Arial);
+}
+
+.purchase>p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin 8vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 1rem 1rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+}
+
+.card-body .pricing>h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
+
+.card-body .pricing>img {
+  max-height: 30vmin;
+}
+
+.card-body .pricing .btn {
+  margin-top: 4vmin;
+}
+
+#products {
+  color: gainsboro;
+}
+
+footer {
+  overflow-x: hidden;
+  padding: 4vmin 8vmin 6vmin 8vmin;
+}
+
+.media-29101 img {
+  margin-bottom: 20px;
+}
+
+.media-29101 h3 {
+  font-size: 18px;
+  font-weight: 900 !important;
+}
+
+.media-29101 h3 a {
+  color: #6c757d;
+}
+
+.owl-2-style .owl-nav {
+  display: none;
+}
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+}
+
+.owl-2-style .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.owl-2-style .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  border-radius: 0px;
+  background: #cccccc;
+  -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  margin: 3px;
+}
+
+.owl-2-style .owl-dots .owl-dot.active span {
+  background: #135516;
+}
+
+.owl-2-style .owl-dots .owl-dot:active,
+.owl-2-style .owl-dots .owl-dot:focus {
+  outline: none;
+}
