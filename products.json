@@ -1,42 +1,42 @@
 {
     "products": [
         {
-            "imageurl": "../images/product_img_1.jpg",
+            "imageurl": "./images/product_img_1.jpg",
             "id": 1,
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
             "productspec3": "Another key 1"
         },
         {
-            "imageurl": "../images/product_img_2.jpg",
+            "imageurl": "./images/product_img_2.jpg",
             "id": 2,
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
             "productspec3": "Another key 2"
         },
         {
-            "imageurl": "../images/product_img_3.jpg",
+            "imageurl": "./images/product_img_3.jpg",
             "id": 3,
             "productspec1": "Box 3",
             "productspec2": "This is Box 3",
             "productspec3": "Another key 3"
         },
         {
-            "imageurl": "../images/product_img_4.jpg",
+            "imageurl": "./images/product_img_4.jpg",
             "id": 4,
             "productspec1": "Box 4",
             "productspec2": "This is Box 4",
             "productspec3": "Another key 4"
         },
         {
-            "imageurl": "../images/product_img_5.jpg",
+            "imageurl": "./images/product_img_5.jpg",
             "id": 5,
             "productspec1": "Box 5",
             "productspec2": "This is Box 5",
             "productspec3": "Another key 5"
         },
         {
-            "imageurl": "../images/product_img_6.jpg",
+            "imageurl": "./images/product_img_6.jpg",
             "id": 6,
             "productspec1": "Box 6",
             "productspec2": "This is Box 6",
