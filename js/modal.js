@@ -7,7 +7,7 @@ $(".pop").on("click", function (e) {
     $('#imagepreview').attr('src', image); // here asign the image to the modal when the user click the enlarge link
     var captionText = document.getElementById("modalLabel");
     captionText.innerHTML = $('.myImg').attr('alt');
-    $.getJSON('products.json', function (data) {
+    $.getJSON('./products.json', function (data) {
         "use strict";
         var products = data.products;
         products.forEach(e => {
