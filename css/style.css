@@ -62,7 +62,7 @@ header #navbarNav {
   padding-left: 3rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   header .navbar-brand {
     padding-left: 8rem;
   }
@@ -81,10 +81,12 @@ header .navbar-text {
   padding-left: 30vmin;
 }
 
-header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 30vmin;
-  padding-left: 4em;
+@media (min-width: 768px) {
+  header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 30vmin;
+    padding-left: 4em;
+  }
 }
 
 header .row .col-md-5 {
