@@ -10,7 +10,6 @@ $(".pop").on("click", function (e) {
     $.getJSON('./products-gr.json', function (data) {
         "use strict";
         var products = data.products;
-        console.log(products);
         products.forEach(e => {
             if (e.imageurl === image) {
                 $("#product-id").html(e.id);
