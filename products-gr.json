@@ -1,46 +1,60 @@
 {
     "products": [
         {
-            "imageurl": "./images/product_img_1.jpg",
+            "imageurl": "./images/product_img_1.png",
             "id": 1,
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
             "productspec3": "Another key 1"
         },
         {
-            "imageurl": "./images/product_img_2.jpg",
+            "imageurl": "./images/product_img_2.png",
             "id": 2,
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
             "productspec3": "Another key 2"
         },
         {
-            "imageurl": "./images/product_img_3.jpg",
+            "imageurl": "./images/product_img_3.png",
             "id": 3,
             "productspec1": "Box 3",
             "productspec2": "This is Box 3",
             "productspec3": "Another key 3"
         },
         {
-            "imageurl": "./images/product_img_4.jpg",
+            "imageurl": "./images/product_img_4.png",
             "id": 4,
             "productspec1": "Box 4",
             "productspec2": "This is Box 4",
             "productspec3": "Another key 4"
         },
         {
-            "imageurl": "./images/product_img_5.jpg",
+            "imageurl": "./images/product_img_5.png",
             "id": 5,
             "productspec1": "Box 5",
             "productspec2": "This is Box 5",
             "productspec3": "Another key 5"
         },
         {
-            "imageurl": "./images/product_img_6.jpg",
+            "imageurl": "./images/product_img_6.png",
             "id": 6,
             "productspec1": "Box 6",
             "productspec2": "This is Box 6",
             "productspec3": "Another key 6"
+        },
+        {
+            "imageurl": "./images/product_img_7.png",
+            "id": 7,
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7"
+        },
+        {
+            "imageurl": "./images/product_img_8.png",
+            "id": 8,
+            "productspec1": "Box 8",
+            "productspec2": "This is Box 8",
+            "productspec3": "Another key 8"
         }
     ]
 }

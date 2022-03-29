@@ -62,8 +62,10 @@ header #navbarNav {
   padding-left: 3rem;
 }
 
-header .navbar-brand {
-  padding-left: 8rem;
+@media (min-width: 800px) {
+  header .navbar-brand {
+    padding-left: 8rem;
+  }
 }
 
 header .nav-link {

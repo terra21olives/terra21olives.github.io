@@ -33,8 +33,9 @@ function zoom(e) {
   zoomer.style.backgroundPosition = x + '% ' + y + '%';
 }
 
+//window.onload = activeAll();
+
 function activeAll() {
-  $grid.isotope({
-    filter: '*'
-  });
+  const buttonAll = document.getElementById('filterall');
+  $(buttonAll).addClass('active');
 }
