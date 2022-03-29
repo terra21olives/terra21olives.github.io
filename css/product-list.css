@@ -350,6 +350,12 @@ h6 {
     /* Black w/ opacity */
 }
 
+@media (min-width: 768px) {
+    .modal {
+        width: 95vw;
+    }
+}
+
 /* Modal Dialog (modal) */
 .modal-dialog {
     text-align: center;
