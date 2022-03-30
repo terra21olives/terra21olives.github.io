@@ -36,10 +36,10 @@
 		<div class="container-fluid p-0">
 			<nav style="background-color: rgb(0, 56, 0);" class="navbar navbar-expand-lg">
 				<a class="navbar-brand" href="#">
-					<img style="padding-right: 15px; filter: invert(100%);" height="40" width="90"
-						src="../assets/logo.png" />Terra 21 &nbsp;&nbsp;<span class="text-light">by Lazaros
-						Kalantzis</span></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					<img style="padding-right: 15px; filter: invert(100%); max-width: 100px;"
+						src="../assets/logo.png" />Terra 21
+					&nbsp;&nbsp;<span class="text-light">by Lazaros Kalantzis</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-align-right text-light"></i>
 				</button>
@@ -55,8 +55,7 @@
 								<a href="#products" class="nav-link">PRODUCTS</a>
 								<div class="dropdown-content">
 									<div class="dropdown-content">
-										<a href="product-list.html" onclick="catredir('.vacuum');">Olives in
-											vacuum
+										<a href="product-list.html" onclick="catredir('.vacuum');">Olives in vacuum
 											bags</a>
 										<a href="product-list.html" onclick="catredir('.pet');">Olives in plastic
 											containers</a>
@@ -72,16 +71,15 @@
 						</li>
 					</ul>
 					<ul class="navbar-nav">
-						<li class="nav-item">
-							<select class="selectpicker" data-width="fit" onchange="location = this.value;">
+						<div class="nav-item"><select class="selectpicker" data-width="fit"
+								onchange="location = this.value;">
 								<option value="contact.html"
 									data-content='<span class="flag-icon flag-icon-us"></span> English'>English
 								</option>
 								<option value="contact-gr.html"
 									data-content='<span class="flag-icon flag-icon-gr"></span> Greek'>
 									Greek</option>
-							</select>
-						</li>
+							</select></div>
 						<li style="padding-right: 20vmin;" class="nav-item">
 							<a class="nav-link" href="contact.html">CONTACT US</a>
 						</li>
@@ -90,6 +88,7 @@
 			</nav>
 		</div>
 	</header>
+
 	<section style="background-color: rgb(134, 165, 134);" class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -149,12 +148,12 @@
 									</form>
 								</div>
 							</div>
-							<div class="col-md-5 d-flex align-items-stretch">
+							<div class="col-md-5 align-items-stretch">
 								<div id="map"><img class="img-fluid" src="../assets/mapimage.jpg" alt="">
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row container-fluid">
 							<div class="col-md-3">
 								<div class="dbox w-100 text-center">
 									<div class="icon d-flex align-items-center justify-content-center">
@@ -202,103 +201,6 @@
 			</div>
 		</div>
 	</section>
-
-	<!-- Footer -->
-	<footer style="background-color:rgb(0, 56, 0); color: gainsboro;" class="text-center text-lg-start">
-
-		<!-- Section: Links  -->
-		<section class="container-fluid p-0">
-			<div id="footer" class="row text-left">
-				<div class="container text-center text-md-start mt-5">
-					<!-- Grid row -->
-					<div class="row mt-3">
-						<!-- Grid column -->
-						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-							<!-- Content -->
-							<p>
-								<img src="./assets/logo.png" alt="" style="filter: invert(85%); max-width: 100px;" />
-								<h6 class="text-uppercase fw-bold mb-4">
-									Terra 21 by Lazaros Kalantzis
-								</h6>
-							</p>
-							<p>
-								Here you can use rows and columns to organize your footer content. Lorem ipsum
-								dolor sit amet, consectetur adipisicing elit.
-							</p>
-						</div>
-						<!-- Grid column -->
-
-						<!-- Grid column -->
-						<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-							<!-- Links -->
-							<h6 class="text-uppercase fw-bold mb-4">
-								Products
-							</h6>
-							<p>
-								<a href="#!" class="text-reset">Angular</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">React</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">Vue</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">Laravel</a>
-							</p>
-						</div>
-						<!-- Grid column -->
-
-						<!-- Grid column -->
-						<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-							<!-- Links -->
-							<h6 class="text-uppercase fw-bold mb-4">
-								Useful links
-							</h6>
-							<p>
-								<a href="#!" class="text-reset">Pricing</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">Settings</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">Orders</a>
-							</p>
-							<p>
-								<a href="#!" class="text-reset">Help</a>
-							</p>
-						</div>
-						<!-- Grid column -->
-
-						<!-- Grid column -->
-						<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-							<!-- Links -->
-							<h6 class="text-uppercase fw-bold mb-4">
-								Contact
-							</h6>
-							<p><i class="fas fa-home me-3"></i> Astakos, Aitoloakarnania 30006, GR</p>
-							<p>
-								<i class="fas fa-envelope me-3"></i>
-								terra21olives@gmail.com
-							</p>
-							<p><i class="fas fa-phone me-3"></i> + 30 26460 41419</p>
-						</div>
-						<!-- Grid column -->
-					</div>
-					<!-- Grid row -->
-				</div>
-			</div>
-		</section>
-		<!-- Section: Links  -->
-
-		<!-- Copyright -->
-		<div class="text-center p-4" style="background-color:darkolivegreen; margin-top: 6vmin;">
-			© 2022 Copyright:
-			<a class="text-reset fw-bold" href="./index.html">terra21olives.com</a>
-		</div>
-		<!-- Copyright -->
-	</footer>
-	<!-- Footer -->
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

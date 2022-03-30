@@ -49,6 +49,16 @@ header a {
   display: block;
 }
 
+header .navbar {
+  margin-bottom: 6em;
+}
+
+@media (max-width: 768px) {
+  header .navbar {
+    margin-bottom: 0em;
+  }
+}
+
 header .nav-item:last-child {
   padding-right: 10.5em;
 }
@@ -60,6 +70,10 @@ header .nav-item {
 
 header #navbarNav {
   padding-left: 3rem;
+}
+
+header .navbar-brand {
+  padding-left: 2vmin;
 }
 
 @media (min-width: 768px) {
@@ -81,16 +95,12 @@ header .navbar-text {
   padding-left: 30vmin;
 }
 
-@media (min-width: 768px) {
-  header .row .col-md-7 {
-    padding: 22vmin 1vmin;
-    padding-bottom: 30vmin;
-    padding-left: 4em;
-  }
+header .row .col-md-7 {
+  padding: 15vmin 5vmin 15vmin 5vmin;
 }
 
 header .row .col-md-5 {
-  padding: 4.2vmin 20vmin;
+  padding: 4.2vmin 15vmin;
 }
 
 header .row .col-md-5 img {
@@ -102,6 +112,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 768px) {
+  header .container-fluid .row {
+    padding: 6vmin 0vmin;
+  }
 }
 
 header .container-fluid .col-md-7 {
@@ -120,7 +136,7 @@ header .container-fluid .col-md-7 h1 {
 }
 
 header .container-fluid .col-md-7 p {
-  padding: 1vmin 5vmin;
+  padding: 1vmin 0vmin;
 }
 
 .primary-btn {
@@ -173,7 +189,7 @@ header .container-fluid .col-md-7 p {
 }
 
 .card-body .pricing>img {
-  max-height: 30vmin;
+  max-height: 50vmin;
 }
 
 .card-body .pricing .btn {

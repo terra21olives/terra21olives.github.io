@@ -11929,13 +11929,7 @@ textarea.form-control {
 }
 
 #map {
-  width: 90%;
-}
-
-@media (max-width: 767.98px) {
-  #map {
-    height: 300px;
-  }
+  width: 100%;
 }
 
 #contactForm .error {
@@ -11976,11 +11970,10 @@ textarea.form-control {
   color: #2553b8;
 }
 
-footer {
-  overflow-x: hidden;
-  padding: 4vmin 8vmin 6vmin 8vmin;
-}
-
 .btn {
   margin-bottom: 0;
+}
+
+header .navbar {
+  margin-bottom: 0em;
 }
