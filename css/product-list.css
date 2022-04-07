@@ -420,6 +420,7 @@ figure.zoom {
     box-shadow: -1px 5px 15px black;
     overflow: hidden;
     cursor: zoom-in;
+    touch-action:none;
 }
 
 figure.zoom img {
