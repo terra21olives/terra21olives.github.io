@@ -47,3 +47,7 @@ $('.modal').on('show.bs.modal', centerModal);
 $(window).on("resize", function () {
     $('.modal:visible').each(centerModal);
 });
+
+$('.btn-close').click(function () {
+    $("#imagemodal").modal('hide');
+});
