@@ -76,6 +76,12 @@ header .navbar-brand {
   padding-left: 2vmin;
 }
 
+header .navbar-brand img {
+  padding-right: 15px;
+  filter: invert(100%);
+  max-width: 100px;
+}
+
 @media (min-width: 768px) {
   header .navbar-brand {
     padding-left: 8rem;
@@ -191,6 +197,7 @@ header .container-fluid .col-md-7 p {
 
 .card-body .pricing>img {
   max-height: 50vmin;
+  padding: 1vmin;
 }
 
 .card-body .pricing .btn {
