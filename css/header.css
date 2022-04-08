@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
 :root {
     --Sniglet-font: "Sniglet", cursive;
     --Rubik: "Rubik", cursive;
@@ -70,6 +80,12 @@ header #navbarNav {
 header .navbar-brand {
     padding-left: 2vmin;
 }
+
+header .navbar-brand img {
+    padding-right: 15px;
+    filter: invert(100%);
+    max-width: 100px;
+  }
 
 @media (min-width: 768px) {
     header .navbar-brand {
