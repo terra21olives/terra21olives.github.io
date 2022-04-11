@@ -18,7 +18,10 @@ $(function () {
     $grid.isotope({
       filter: filterValue
     });
-    const bouton = document.getElementById(filterValue.substring(1));
+    var bouton = document.getElementById('filterall');
+    if (filterValue !== '*') {
+      var bouton = document.getElementById(filterValue.substring(1));
+    }
     $(bouton).addClass('active');
     sessionStorage.clear();
   }

@@ -163,6 +163,10 @@ header .container-fluid .col-md-7 p {
 
 /* Section 3 */
 
+.section-3 h2 {
+  padding: 8vmin 0 5vmin 0;
+}
+
 .purchase>h1 {
   padding-top: 8vmin;
   padding-bottom: 1.2em;
