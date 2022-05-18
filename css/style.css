@@ -139,11 +139,13 @@ header {
 
 header .container-fluid .col-md-7 {
   font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
 }
 
 header .container-fluid .col-md-7 h6 {
   padding: 1vmin;
   letter-spacing: 4px;
+  font-size: 4vmin;
 }
 
 header .container-fluid .col-md-7 h1 {
