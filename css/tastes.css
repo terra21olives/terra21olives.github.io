@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet|GFS+Didot|BIZ+UDPMincho");
+
+header .navbar {
+    margin-bottom: 0em;
+}
+
+.row .banner {
+    background-image: url(/assets/tastes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30rem;
+    position: relative;
+}
+
+.row .col-md-12 h2 {
+    text-align: center;
+    padding: 12vmin 20vmin;
+    color: rgb(57, 68, 77);
+    width: 100%;
+    font-size: 20vmin;
+    font-family: 'GFS Didot', 'Times New Roman', Times, serif;
+}
+
+.row .col-md-7 {
+    padding: 15vmin 10vmin 15vmin 10vmin;
+    display: grid;
+}
+
+.row .col-md-5 {
+    padding: 2vmin 4vmin;
+}
+
+.row .col-md-5 img {
+    width: 100%;
+    display: grid;
+}
+
+@media (max-width: 768px) {
+    .container-fluid .row {
+        padding: 6vmin 0vmin;
+    }
+}
+
+.container-fluid .col-md-7 {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+}
+
+.container-fluid .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+    font-size: 4rem;
+}
+
+.container-fluid .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+.container-fluid .col-md-7 p {
+    padding: 1vmin 0vmin;
+}
+
+.keimeno {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0 10vmin;
+}
+
+.cardsection {
+    padding-top: 10vmin;
+}
+
+.card {
+    width: 100%;
+    padding: 5vmin;
+    margin: 10vmin;
+}
+
+.card img {
+    padding: 5vmin;
+}
+
+.card-title {
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+.card-text {
+    padding: 1rem 2rem;
+}
