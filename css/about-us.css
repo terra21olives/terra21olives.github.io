@@ -15,9 +15,8 @@ header .navbar {
 }
 
 .row .col-md-12 h2 {
-    position: absolute;
     text-align: center;
-    bottom: 4rem;
+    margin-top: 18rem;
     color: aliceblue;
     width: 100%;
     font-size: 5rem;
@@ -40,6 +39,10 @@ header .navbar {
 @media (max-width: 768px) {
     .container-fluid .row {
         padding: 6vmin 0vmin;
+    }
+
+    .row .col-md-12 h2 {
+        margin-top: 8rem;
     }
 }
 
