@@ -16,73 +16,42 @@ header .navbar {
 
 .row .col-md-12 h2 {
     text-align: center;
-    padding: 12vmin 20vmin;
+    margin-top: 6rem;
     color: rgb(57, 68, 77);
     width: 100%;
-    font-size: 20vmin;
+    font-size: 18vmin;
     font-family: 'GFS Didot', 'Times New Roman', Times, serif;
-}
-
-.row .col-md-7 {
-    padding: 15vmin 10vmin 15vmin 10vmin;
-    display: grid;
-}
-
-.row .col-md-5 {
-    padding: 2vmin 4vmin;
-}
-
-.row .col-md-5 img {
-    width: 100%;
-    display: grid;
 }
 
 @media (max-width: 768px) {
     .container-fluid .row {
         padding: 6vmin 0vmin;
     }
-}
 
-.container-fluid .col-md-7 {
-    font-family: "Rubik", sans-serif;
-    font-size: 1.4rem;
-}
-
-.container-fluid .col-md-7 h6 {
-    padding: 1vmin;
-    letter-spacing: 4px;
-    font-size: 4rem;
-}
-
-.container-fluid .col-md-7 h1 {
-    font-size: 8.5vmin;
-    font-weight: bold;
-    padding: 0.1em 0em;
-}
-
-.container-fluid .col-md-7 p {
-    padding: 1vmin 0vmin;
+    .row .col-md-12 h2 {
+        margin-top: 8rem;
+    }
 }
 
 .keimeno {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 0 10vmin;
 }
 
 .cardsection {
-    padding-top: 10vmin;
+    padding-top: 5vmin;
 }
 
 .card {
     width: 100%;
     padding: 5vmin;
-    margin: 10vmin;
+    margin: 5vmin 10vmin;
 }
 
 .card img {
-    padding: 5vmin;
+    padding: 0 5vmin 2vmin 5vmin;
 }
 
 .card-title {
