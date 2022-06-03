@@ -25,7 +25,7 @@ body {
 }
 
 header a {
-    font-family: var(--Sniglet-font);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
     color: whitesmoke;
 }
@@ -85,7 +85,7 @@ header .navbar-brand img {
     padding-right: 15px;
     filter: invert(100%);
     max-width: 100px;
-  }
+}
 
 @media (min-width: 768px) {
     header .navbar-brand {

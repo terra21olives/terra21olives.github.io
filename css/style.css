@@ -30,8 +30,8 @@ section {
 }
 
 header a {
-  font-family: var(--Sniglet-font);
-  font-size: 0.9em;
+  font-family: 'Arial', serif;
+  font-size: 1.0em;
   color: whitesmoke;
 }
 
