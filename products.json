@@ -1,60 +1,166 @@
 {
     "products": [
         {
-            "imageurl": "./images/product_img_1.png",
+            "imageurl": "./images/product_astakos_pet.png",
             "id": 1,
+            "title": "Astakos PET 430g",
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
-            "productspec3": "Another key 1"
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
         },
         {
-            "imageurl": "./images/product_img_2.png",
+            "imageurl": "./images/product_astakos_pet2.png",
             "id": 2,
+            "title": "Astakos PET 900g",
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
-            "productspec3": "Another key 2"
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
         },
         {
-            "imageurl": "./images/product_img_3.png",
+            "imageurl": "./images/product_astakos_pet3.png",
             "id": 3,
+            "title": "Astakos PET 2kg",
             "productspec1": "Box 3",
             "productspec2": "This is Box 3",
-            "productspec3": "Another key 3"
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
         },
         {
-            "imageurl": "./images/product_img_4.png",
+            "imageurl": "./images/product_astakos_pet4.png",
             "id": 4,
+            "title": "Astakos PET 3,5kg",
             "productspec1": "Box 4",
             "productspec2": "This is Box 4",
-            "productspec3": "Another key 4"
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
         },
         {
-            "imageurl": "./images/product_img_5.png",
+            "imageurl": "./images/product_astakos_pet5.png",
             "id": 5,
+            "title": "Astakos PET 6kg",
             "productspec1": "Box 5",
             "productspec2": "This is Box 5",
-            "productspec3": "Another key 5"
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
         },
         {
-            "imageurl": "./images/product_img_6.png",
+            "imageurl": "./images/product_astakos_jar.png",
             "id": 6,
+            "title": "Astakos Jar 190g",
             "productspec1": "Box 6",
             "productspec2": "This is Box 6",
-            "productspec3": "Another key 6"
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
         },
         {
-            "imageurl": "./images/product_img_7.png",
-            "id": 7,
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7"
+            "imageurl": "./images/product_kalamata_pet.png",
+            "id": 1,
+            "title": "Kalamata PET 430g",
+            "productspec1": "Box 1",
+            "productspec2": "This is Box 1",
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
         },
         {
-            "imageurl": "./images/product_img_8.png",
-            "id": 8,
-            "productspec1": "Box 8",
-            "productspec2": "This is Box 8",
-            "productspec3": "Another key 8"
+            "imageurl": "./images/product_kalamata_pet2.png",
+            "id": 2,
+            "title": "Kalamata PET 900g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/product_kalamata_pet3.png",
+            "id": 3,
+            "title": "Kalamata PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/product_kalamata_pet4.png",
+            "id": 4,
+            "title": "Kalamata PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/product_kalamata_pet5.png",
+            "id": 5,
+            "title": "Kalamata PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/product_kalamata_jar.png",
+            "id": 6,
+            "title": "Kalamata Jar 190g",
+            "productspec1": "Box 6",
+            "productspec2": "This is Box 6",
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_pet.png",
+            "id": 1,
+            "title": "Thessaloniki PET 430g",
+            "productspec1": "Box 1",
+            "productspec2": "This is Box 1",
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_pet2.png",
+            "id": 2,
+            "title": "Thessaloniki PET 900g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_pet3.png",
+            "id": 3,
+            "title": "Thessaloniki PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_pet4.png",
+            "id": 4,
+            "title": "Thessaloniki PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_pet5.png",
+            "id": 5,
+            "title": "Thessaloniki PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/product_thessaloniki_jar.png",
+            "id": 6,
+            "title": "Thessaloniki Jar 190g",
+            "productspec1": "Box 6",
+            "productspec2": "This is Box 6",
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
         }
     ]
 }

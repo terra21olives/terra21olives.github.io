@@ -6,16 +6,17 @@ $(".pop").on("click", function (e) {
     zoombackground.style.backgroundImage = "url('" + image + "')";
     $('#imagepreview').attr('src', image); // here asign the image to the modal when the user click the enlarge link
     var captionText = document.getElementById("modalLabel");
-    captionText.innerHTML = $('.myImg').attr('alt');
     $.getJSON('./products.json', function (data) {
         "use strict";
         var products = data.products;
         products.forEach(e => {
             if (e.imageurl === image) {
                 $("#product-id").html(e.id);
+                captionText.innerHTML = e.title;
                 $("#product-spec1").html(e.productspec1);
                 $("#product-spec2").html(e.productspec2);
                 $("#product-spec3").html(e.productspec3);
+                $("#product-spec4").html(e.productspec4);
             }
         });
     });
