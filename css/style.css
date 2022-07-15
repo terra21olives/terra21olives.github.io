@@ -163,10 +163,16 @@ header .container-fluid .col-md-7 p {
   font-weight: bold;
 }
 
-/* Section 3 */
+.section-2 h2 {
+  padding: 6vmin 0 1vmin 0;
+}
+
+.section-2 h3 {
+  padding: 2vmin 0 3vmin 0;
+}
 
 .section-3 h2 {
-  padding: 8vmin 0 5vmin 0;
+  padding: 6vmin 0 5vmin 0;
 }
 
 .purchase>h1 {

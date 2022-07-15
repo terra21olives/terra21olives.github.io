@@ -137,8 +137,7 @@ h6 {
 
     .card-img-top {
         width: 295px;
-        height: 200px;
-        border-radius: 10px
+        height: 200px
     }
 
     del {
@@ -190,8 +189,7 @@ h6 {
 
     .card-img-top {
         width: 200px;
-        height: 200px;
-        border-radius: 10px
+        height: 200px
     }
 
     .fa-plus,
@@ -326,6 +324,10 @@ h6 {
         font-size: 12px;
         margin-top: 2%
     }
+}
+
+#product-title {
+    min-height: 3.5vmin;
 }
 
 .myImg {

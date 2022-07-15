@@ -14,22 +14,23 @@ header .navbar {
     position: relative;
 }
 
-.row .col-md-12 h2 {
+.row .col-md-8 h2 {
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 12vmin;
     color: rgb(57, 68, 77);
     width: 100%;
-    font-size: 18vmin;
+    font-size: 8vmin;
     font-family: 'GFS Didot', 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 768px) {
     .container-fluid .row {
-        padding: 6vmin 0vmin;
+        padding: 12vmin 20vmin;
     }
 
-    .row .col-md-12 h2 {
-        margin-top: 8rem;
+    .row .col-md-8 h2 {
+        margin-top: 20vmin;
+        font-size: 14vmin;
     }
 }
 

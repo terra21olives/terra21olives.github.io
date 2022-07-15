@@ -19,7 +19,8 @@ header .navbar {
     margin-top: 18rem;
     color: aliceblue;
     width: 100%;
-    font-size: 5rem;
+    font-size: 7vmin;
+    font-family: 'GFS Didot', 'Times New Roman', Times, serif;
 }
 
 .row .col-md-7 {
@@ -42,7 +43,7 @@ header .navbar {
     }
 
     .row .col-md-12 h2 {
-        margin-top: 8rem;
+        margin-top: 55vmin;
     }
 }
 
@@ -52,9 +53,17 @@ header .navbar {
 }
 
 .container-fluid .col-md-7 h6 {
-    padding: 1vmin;
-    letter-spacing: 4px;
-    font-size: 4rem;
+    padding: 1vmin 0 2vmin 0;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .container-fluid .col-md-7 h6 {
+        padding: 1vmin 0 2vmin 0;
+        letter-spacing: 2px;
+        font-size: 2rem;
+    }
 }
 
 .container-fluid .col-md-7 h1 {
