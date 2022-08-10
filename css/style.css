@@ -170,11 +170,17 @@ header .container-fluid .col-md-7 p {
 
 .section-2 h3 {
   font-size: 34px;
-  padding: 2vmin 0 3vmin 0;
+  padding: 2vmin 0 4vmin 0;
 }
 
 .section-2 p {
   font-size: 25px;
+  padding: 2.4vmin;
+  line-height: 48px;
+}
+
+.photos {
+  padding: 2rem 3rem 2rem 3rem;
 }
 
 .section-3 h2 {
