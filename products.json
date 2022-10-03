@@ -1,25 +1,25 @@
 {
     "products": [
         {
-            "imageurl": "./images/product_astakos_pet.png",
+            "imageurl": "./images/pet_astakos.jpg",
             "id": 1,
-            "title": "Astakos PET 430g",
+            "title": "Astakos PET 780g",
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
             "productspec3": "Another key 1",
             "productspec4": "Another key 1"
         },
         {
-            "imageurl": "./images/product_astakos_pet2.png",
+            "imageurl": "./images/pet2_astakos.jpg",
             "id": 2,
-            "title": "Astakos PET 900g",
+            "title": "Astakos PET 1540g",
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
             "productspec3": "Another key 2",
             "productspec4": "Another key 2"
         },
         {
-            "imageurl": "./images/product_astakos_pet3.png",
+            "imageurl": "./images/pet3_astakos.jpg",
             "id": 3,
             "title": "Astakos PET 2kg",
             "productspec1": "Box 3",
@@ -28,7 +28,7 @@
             "productspec4": "Another key 3"
         },
         {
-            "imageurl": "./images/product_astakos_pet4.png",
+            "imageurl": "./images/pet4_astakos.jpg",
             "id": 4,
             "title": "Astakos PET 3,5kg",
             "productspec1": "Box 4",
@@ -37,7 +37,7 @@
             "productspec4": "Another key 4"
         },
         {
-            "imageurl": "./images/product_astakos_pet5.png",
+            "imageurl": "./images/pet5_astakos.jpg",
             "id": 5,
             "title": "Astakos PET 6kg",
             "productspec1": "Box 5",
@@ -46,7 +46,7 @@
             "productspec4": "Another key 5"
         },
         {
-            "imageurl": "./images/product_astakos_jar.png",
+            "imageurl": "./images/jar_astakos.jpg",
             "id": 6,
             "title": "Astakos Jar 190g",
             "productspec1": "Box 6",
@@ -55,25 +55,34 @@
             "productspec4": "Another key 6"
         },
         {
-            "imageurl": "./images/product_kalamata_pet.png",
+            "imageurl": "./images/vacuum_astakos.jpg",
+            "id": 7,
+            "title": "Astakos Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
+        },
+        {
+            "imageurl": "./images/pet_kalamata.jpg",
             "id": 1,
-            "title": "Kalamata PET 430g",
+            "title": "Kalamata PET 780g",
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
             "productspec3": "Another key 1",
             "productspec4": "Another key 1"
         },
         {
-            "imageurl": "./images/product_kalamata_pet2.png",
+            "imageurl": "./images/pet2_kalamata.jpg",
             "id": 2,
-            "title": "Kalamata PET 900g",
+            "title": "Kalamata PET 1540g",
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
             "productspec3": "Another key 2",
             "productspec4": "Another key 2"
         },
         {
-            "imageurl": "./images/product_kalamata_pet3.png",
+            "imageurl": "./images/pet3_kalamata.jpg",
             "id": 3,
             "title": "Kalamata PET 2kg",
             "productspec1": "Box 3",
@@ -82,7 +91,7 @@
             "productspec4": "Another key 3"
         },
         {
-            "imageurl": "./images/product_kalamata_pet4.png",
+            "imageurl": "./images/pet4_kalamata.jpg",
             "id": 4,
             "title": "Kalamata PET 3,5kg",
             "productspec1": "Box 4",
@@ -91,7 +100,7 @@
             "productspec4": "Another key 4"
         },
         {
-            "imageurl": "./images/product_kalamata_pet5.png",
+            "imageurl": "./images/pet5_kalamata.jpg",
             "id": 5,
             "title": "Kalamata PET 6kg",
             "productspec1": "Box 5",
@@ -100,7 +109,7 @@
             "productspec4": "Another key 5"
         },
         {
-            "imageurl": "./images/product_kalamata_jar.png",
+            "imageurl": "./images/jar_kalamata.jpg",
             "id": 6,
             "title": "Kalamata Jar 190g",
             "productspec1": "Box 6",
@@ -109,58 +118,265 @@
             "productspec4": "Another key 6"
         },
         {
-            "imageurl": "./images/product_thessaloniki_pet.png",
+            "imageurl": "./images/vacuum_kalamata.jpg",
+            "id": 7,
+            "title": "Kalamata Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
+        },
+        {
+            "imageurl": "./images/pet_salonika.jpg",
             "id": 1,
-            "title": "Thessaloniki PET 430g",
+            "title": "Salonika PET 780g",
             "productspec1": "Box 1",
             "productspec2": "This is Box 1",
             "productspec3": "Another key 1",
             "productspec4": "Another key 1"
         },
         {
-            "imageurl": "./images/product_thessaloniki_pet2.png",
+            "imageurl": "./images/pet2_salonika.jpg",
             "id": 2,
-            "title": "Thessaloniki PET 900g",
+            "title": "Salonika PET 1540g",
             "productspec1": "Box 2",
             "productspec2": "This is Box 2",
             "productspec3": "Another key 2",
             "productspec4": "Another key 2"
         },
         {
-            "imageurl": "./images/product_thessaloniki_pet3.png",
+            "imageurl": "./images/pet3_salonika.jpg",
             "id": 3,
-            "title": "Thessaloniki PET 2kg",
+            "title": "Salonika PET 2kg",
             "productspec1": "Box 3",
             "productspec2": "This is Box 3",
             "productspec3": "Another key 3",
             "productspec4": "Another key 3"
         },
         {
-            "imageurl": "./images/product_thessaloniki_pet4.png",
+            "imageurl": "./images/pet4_salonika.jpg",
             "id": 4,
-            "title": "Thessaloniki PET 3,5kg",
+            "title": "Salonika PET 3,5kg",
             "productspec1": "Box 4",
             "productspec2": "This is Box 4",
             "productspec3": "Another key 4",
             "productspec4": "Another key 4"
         },
         {
-            "imageurl": "./images/product_thessaloniki_pet5.png",
+            "imageurl": "./images/pet5_salonika.jpg",
             "id": 5,
-            "title": "Thessaloniki PET 6kg",
+            "title": "Salonika PET 6kg",
             "productspec1": "Box 5",
             "productspec2": "This is Box 5",
             "productspec3": "Another key 5",
             "productspec4": "Another key 5"
         },
         {
-            "imageurl": "./images/product_thessaloniki_jar.png",
+            "imageurl": "./images/jar_salonika.jpg",
             "id": 6,
-            "title": "Thessaloniki Jar 190g",
+            "title": "Salonika Jar 190g",
             "productspec1": "Box 6",
             "productspec2": "This is Box 6",
             "productspec3": "Another key 6",
             "productspec4": "Another key 6"
+        },
+        {
+            "imageurl": "./images/vacuum_salonika.jpg",
+            "id": 7,
+            "title": "Salonika Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
+        },
+        {
+            "imageurl": "./images/pet_crete.jpg",
+            "id": 1,
+            "title": "Crete PET 780g",
+            "productspec1": "Box 1",
+            "productspec2": "This is Box 1",
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
+        },
+        {
+            "imageurl": "./images/pet2_crete.jpg",
+            "id": 2,
+            "title": "Crete PET 1540g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/pet3_crete.jpg",
+            "id": 3,
+            "title": "Crete PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/pet4_crete.jpg",
+            "id": 4,
+            "title": "Crete PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/pet5_crete.jpg",
+            "id": 5,
+            "title": "Crete PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/jar_crete.jpg",
+            "id": 6,
+            "title": "Crete Jar 190g",
+            "productspec1": "Box 6",
+            "productspec2": "This is Box 6",
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
+        },
+        {
+            "imageurl": "./images/vacuum_athens.jpg",
+            "id": 7,
+            "title": "Athens Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
+        },
+        {
+            "imageurl": "./images/pet_athens.jpg",
+            "id": 1,
+            "title": "Athens PET 780g",
+            "productspec1": "Box 1",
+            "productspec2": "This is Box 1",
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
+        },
+        {
+            "imageurl": "./images/pet2_athens.jpg",
+            "id": 2,
+            "title": "Athens PET 1540g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/pet3_athens.jpg",
+            "id": 3,
+            "title": "Athens PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/pet4_athens.jpg",
+            "id": 4,
+            "title": "Athens PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/pet5_athens.jpg",
+            "id": 5,
+            "title": "Athens PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/jar_athens.jpg",
+            "id": 6,
+            "title": "Athens Jar 190g",
+            "productspec1": "Box 6",
+            "productspec2": "This is Box 6",
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
+        },
+        {
+            "imageurl": "./images/vacuum_athens.jpg",
+            "id": 7,
+            "title": "Athens Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
+        },
+        {
+            "imageurl": "./images/pet_santorini.jpg",
+            "id": 1,
+            "title": "Santorini PET 780g",
+            "productspec1": "Box 1",
+            "productspec2": "This is Box 1",
+            "productspec3": "Another key 1",
+            "productspec4": "Another key 1"
+        },
+        {
+            "imageurl": "./images/pet2_santorini.jpg",
+            "id": 2,
+            "title": "Santorini PET 1540g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/pet3_santorini.jpg",
+            "id": 3,
+            "title": "Santorini PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/pet4_santorini.jpg",
+            "id": 4,
+            "title": "Santorini PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/pet5_santorini.jpg",
+            "id": 5,
+            "title": "Santorini PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/jar_santorini.jpg",
+            "id": 6,
+            "title": "Santorini Jar 190g",
+            "productspec1": "Box 6",
+            "productspec2": "This is Box 6",
+            "productspec3": "Another key 6",
+            "productspec4": "Another key 6"
+        },
+        {
+            "imageurl": "./images/vacuum_santorini.jpg",
+            "id": 7,
+            "title": "Santorini Vacuum 250g",
+            "productspec1": "Box 7",
+            "productspec2": "This is Box 7",
+            "productspec3": "Another key 7",
+            "productspec4": "Another key 7"
         }
     ]
 }
