@@ -78,6 +78,10 @@ header .navbar {
 
 .intro h2 {
     padding: 3rem 0 1rem 0;
+    color: #dfebdc;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
 }
 
 .photo-gallery {
@@ -120,4 +124,10 @@ header .navbar {
 
 .photo-gallery .item {
     padding-bottom: 30px;
+}
+
+.cert {
+    width: 60vmin;
+    height: 85vmin;
+    margin-bottom: 6vmin;
 }
