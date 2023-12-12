@@ -295,3 +295,12 @@ footer {
 .owl-2-style .owl-dots .owl-dot:focus {
   outline: none;
 }
+
+.menu-text {
+  color: white;
+  padding-right: 2vmin;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
