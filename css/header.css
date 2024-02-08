@@ -155,3 +155,12 @@ header .container-fluid .col-md-7 h1 {
 header .container-fluid .col-md-7 p {
     padding: 1vmin 0vmin;
 }
+
+.menu-text {
+    color: white;
+    padding-right: 2vmin;
+  }
+  
+.navbar-toggler {
+    border-color: white;
+  }

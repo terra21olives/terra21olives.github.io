@@ -180,6 +180,14 @@ header .container-fluid .col-md-7 p {
   line-height: 48px;
 }
 
+@media (max-width: 768px) {
+  .section-2 p {
+    font-size: 22px;
+    padding: 4vmin;
+    line-height: 34px;
+  }
+}
+
 .photos {
   padding: 2rem 3rem 2rem 3rem;
 }

@@ -9,6 +9,11 @@ $(document).ready(function () {
 
 $(function () {
 
+  $('.pagination-inner a').on('click', function() {
+		$(this).siblings().removeClass('pagination-active');
+		$(this).addClass('pagination-active');
+})
+
   if ($('.owl-2').length > 0) {
     $('.owl-2').owlCarousel({
       center: false,
