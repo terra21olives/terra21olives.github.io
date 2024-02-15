@@ -6,7 +6,7 @@
 }
 
 .pagination-container {
-  margin: 100px auto;
+  margin: 80px auto;
   text-align: center;
   position: relative;
 }
@@ -59,11 +59,11 @@
 
 .pagination-newer {
   margin-left: 9vmin;
-  margin-right: 50px;
+  margin-right: 5rem;
 }
 
 .pagination-older {
-  margin-left: 50px;
+  margin-left: 5rem;
 }
 
 .center_div {
@@ -81,4 +81,8 @@
     height: 15vw;
     object-fit: cover;
   }
+}
+
+.card {
+  height: 32rem;
 }
