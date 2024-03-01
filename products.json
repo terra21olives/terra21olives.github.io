@@ -2,12 +2,12 @@
     "products": [
         {
             "imageurl": "./images/pet_astakos.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Astakos PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_astakos.jpg",
@@ -47,30 +47,30 @@
         },
         {
             "imageurl": "./images/jar_astakos.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Astakos Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_astakos.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Astakos Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
         },
         {
             "imageurl": "./images/pet_kalamata.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Kalamata PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_kalamata.jpg",
@@ -110,30 +110,30 @@
         },
         {
             "imageurl": "./images/jar_kalamata.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Kalamata Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_kalamata.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Kalamata Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
         },
         {
             "imageurl": "./images/pet_salonika.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Salonika PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_salonika.jpg",
@@ -173,30 +173,30 @@
         },
         {
             "imageurl": "./images/jar_salonika.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Salonika Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_salonika.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Salonika Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
         },
         {
             "imageurl": "./images/pet_crete.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Crete PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_crete.jpg",
@@ -236,30 +236,30 @@
         },
         {
             "imageurl": "./images/jar_crete.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Crete Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_athens.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Athens Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
         },
         {
             "imageurl": "./images/pet_athens.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Athens PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_athens.jpg",
@@ -299,30 +299,30 @@
         },
         {
             "imageurl": "./images/jar_athens.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Athens Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_athens.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Athens Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
         },
         {
             "imageurl": "./images/pet_santorini.jpg",
-            "id": 1,
+            "id": 12,
             "title": "Santorini PET 780g",
-            "productspec1": "Box 1",
-            "productspec2": "This is Box 1",
-            "productspec3": "Another key 1",
-            "productspec4": "Another key 1"
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
         },
         {
             "imageurl": "./images/pet2_santorini.jpg",
@@ -362,21 +362,317 @@
         },
         {
             "imageurl": "./images/jar_santorini.jpg",
-            "id": 6,
+            "id": 12,
             "title": "Santorini Jar 363g",
-            "productspec1": "Box 6",
-            "productspec2": "This is Box 6",
-            "productspec3": "Another key 6",
-            "productspec4": "Another key 6"
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
         },
         {
             "imageurl": "./images/vacuum_santorini.jpg",
-            "id": 7,
+            "id": 16,
             "title": "Santorini Vacuum 250g",
-            "productspec1": "Box 7",
-            "productspec2": "This is Box 7",
-            "productspec3": "Another key 7",
-            "productspec4": "Another key 7"
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
+        },{
+            "imageurl": "./images/pet_lefkada.jpg",
+            "id": 12,
+            "title": "Santorini PET 780g",
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
+        },
+        {
+            "imageurl": "./images/pet2_lefkada.jpg",
+            "id": 2,
+            "title": "Santorini PET 1540g",
+            "productspec1": "Box 2",
+            "productspec2": "This is Box 2",
+            "productspec3": "Another key 2",
+            "productspec4": "Another key 2"
+        },
+        {
+            "imageurl": "./images/pet3_lefkada.jpg",
+            "id": 3,
+            "title": "Santorini PET 2kg",
+            "productspec1": "Box 3",
+            "productspec2": "This is Box 3",
+            "productspec3": "Another key 3",
+            "productspec4": "Another key 3"
+        },
+        {
+            "imageurl": "./images/pet4_lefkada.jpg",
+            "id": 4,
+            "title": "Santorini PET 3,5kg",
+            "productspec1": "Box 4",
+            "productspec2": "This is Box 4",
+            "productspec3": "Another key 4",
+            "productspec4": "Another key 4"
+        },
+        {
+            "imageurl": "./images/pet5_lefkada.jpg",
+            "id": 5,
+            "title": "Santorini PET 6kg",
+            "productspec1": "Box 5",
+            "productspec2": "This is Box 5",
+            "productspec3": "Another key 5",
+            "productspec4": "Another key 5"
+        },
+        {
+            "imageurl": "./images/jar_lefkada.jpg",
+            "id": 12,
+            "title": "Santorini Jar 363g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/vacuum_lefkada.jpg",
+            "id": 16,
+            "title": "Santorini Vacuum 250g",
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
+        },
+        {
+            "imageurl": "./images/paste_classic.jpg",
+            "id": 6,
+            "title": "Paste Classic 107g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "1,715 kg",
+            "productspec3": "22",
+            "productspec4": "37,73 kg"
+        },
+        {
+            "imageurl": "./images/paste_oregano.jpg",
+            "id": 6,
+            "title": "Paste Oregano 107g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "1,715 kg",
+            "productspec3": "22",
+            "productspec4": "37,73 kg"
+        },
+        {
+            "imageurl": "./images/paste_spicy.jpg",
+            "id": 6,
+            "title": "Paste Spicy 107g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "1,715 kg",
+            "productspec3": "22",
+            "productspec4": "37,73 kg"
+        },
+        {
+            "imageurl": "./images/paste_spirulina.jpg",
+            "id": 6,
+            "title": "Paste Spirulina 107g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "1,715 kg",
+            "productspec3": "22",
+            "productspec4": "37,73 kg"
+        },
+        {
+            "imageurl": "./images/jar_melange.jpg",
+            "id": 12,
+            "title": "Early Harvest Glass Jar 343g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/vacuum_melange.jpg",
+            "id": 16,
+            "title": "Melange Vacuum Bag 250g",
+            "productspec1": "295 x 172 x 227",
+            "productspec2": "4,285 kg",
+            "productspec3": "17",
+            "productspec4": "72,845 kg"
+        },
+        {
+            "imageurl": "./images/pet_melange.jpg",
+            "id": 12,
+            "title": "Early Harvest PET Container 780g",
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
+        },
+        {
+            "imageurl": "./images/jar_ekp_votana.jpg",
+            "id": 12,
+            "title": "Pitted Green Olives With Herbs Glass 343g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/jar_almond.jpg",
+            "id": 12,
+            "title": "Pitted Green Olives with Almonds Glass 343g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/jar_pepper.jpg",
+            "id": 12,
+            "title": "Pitted Green Olives with Red Pepper and Herbs Glass 343g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/PET_sliced_725.jpg",
+            "id": 12,
+            "title": "Sliced Kalamata Olives PET 725g",
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
+        },
+        {
+            "imageurl": "./images/PET_sliced_3_1.jpg",
+            "id": 1,
+            "title": "Sliced Kalamata Olives PET 3,1kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/PET_sliced_5_2.jpg",
+            "id": 1,
+            "title": "Sliced Kalamata Olives PET 5,2kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/jar_sliced.jpg",
+            "id": 12,
+            "title": "Sliced Kalamata Olives Glass 345g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/jar_traditional.jpg",
+            "id": 12,
+            "title": "Paste Spirulina 107g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/vacuum_traditional.jpg",
+            "id": 16,
+            "title": "Traditional Kalamata Olives Vacuum 250g",
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "10,35 kg",
+            "productspec3": "8",
+            "productspec4": "82,8 kg"
+        },
+        {
+            "imageurl": "./images/pet_traditional.jpg",
+            "id": 12,
+            "title": "Traditional Kalamata Olives PET 720g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "1,715 kg",
+            "productspec3": "22",
+            "productspec4": "37,73 kg"
+        },
+        {
+            "imageurl": "./images/jar_pitted.jpg",
+            "id": 12,
+            "title": "Pitted Kalamata Olives Glass 363g",
+            "productspec1": "285 x 220 x 145",
+            "productspec2": "7,3 kg",
+            "productspec3": "14",
+            "productspec4": "102,2 kg"
+        },
+        {
+            "imageurl": "./images/vacuum_pitted.jpg",
+            "id": 22,
+            "title": "Pitted Kalamata Olives Vacuum 250g",
+            "productspec1": "370 x 282 x 150",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/pet_pitted.jpg",
+            "id": 12,
+            "title": "Pitted Kalamata Olives PET 700g",
+            "productspec1": "238 x 165 x 74",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/pet_selected_XJ_1.jpg",
+            "id": 6,
+            "title": "Selected Kalamata Olives Extra Jumbo PET 1,6kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/pet_selected_XJ_2.jpg",
+            "id": 1,
+            "title": "Selected Kalamata Olives Extra Jumbo PET 3,2kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/pet_selected_XJ_3.jpg",
+            "id": 1,
+            "title": "Selected Kalamata Olives Extra Jumbo PET 5,3kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/6K_XJ_2.jpg",
+            "id": 1,
+            "title": "Kalamata Olives PET 9,56kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/6K_proimi_megali.jpg",
+            "id": 1,
+            "title": "Kalamata Olives Early Harvest 181-230 PET 9,56kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
+        },
+        {
+            "imageurl": "./images/6K_proimi_mikri.jpg",
+            "id": 1,
+            "title": "Kalamata Olives Early Harvest 231-320 PET 9,56kg",
+            "productspec1": "-",
+            "productspec2": "-",
+            "productspec3": "-",
+            "productspec4": "-"
         }
     ]
 }

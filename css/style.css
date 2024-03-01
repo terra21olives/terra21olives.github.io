@@ -30,8 +30,8 @@ section {
 }
 
 header a {
-  font-family: 'Arial', serif;
-  font-size: 1.0em;
+  font-family: "Arial", serif;
+  font-size: 1em;
   color: whitesmoke;
 }
 
@@ -196,13 +196,13 @@ header .container-fluid .col-md-7 p {
   padding: 6vmin 0 5vmin 0;
 }
 
-.purchase>h1 {
+.purchase > h1 {
   padding-top: 8vmin;
   padding-bottom: 1.2em;
   font-family: var(--Arial);
 }
 
-.purchase>p {
+.purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
   padding-bottom: 10vmin;
@@ -233,12 +233,12 @@ header .container-fluid .col-md-7 p {
   background: rgba(208, 241, 241, 0.199);
 }
 
-.card-body .pricing>h1 {
+.card-body .pricing > h1 {
   font-size: 10vmin;
   padding: 1em 0.5em;
 }
 
-.card-body .pricing>img {
+.card-body .pricing > img {
   max-height: 50vmin;
   padding: 1vmin;
 }
@@ -311,4 +311,32 @@ footer {
 
 .navbar-toggler {
   border-color: white;
+}
+
+@media (min-width: 1850px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-custom .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-custom > .container {
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
 }
