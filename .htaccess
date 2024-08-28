@@ -7,3 +7,7 @@ RewriteEngine On
   RewriteCond %{HTTP_HOST} https://astakosolives.com/index.html [OR]
   RewriteCond %{HTTP_HOST} https://astakosolives.com/
   RewriteRule (.*)$ https://astakosolives.com/ [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^astakosolives.com$
+RewriteRule ^(.*)$ https://astakosolives.com/$1 [R=301,L]
