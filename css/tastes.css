@@ -1,65 +1,65 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet|GFS+Didot|BIZ+UDPMincho");
 
 header .navbar {
-    margin-bottom: 0em;
+  margin-bottom: 0em;
 }
 
 .row .banner {
-    background-image: url(/assets/tastes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 30rem;
-    position: relative;
+  background-image: url(/assets/tastes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30rem;
+  position: relative;
 }
 
-.row .col-md-8 h2 {
-    text-align: center;
-    margin-top: 12vmin;
-    color: rgb(57, 68, 77);
-    width: 100%;
-    font-size: 8vmin;
-    font-family: 'GFS Didot', 'Times New Roman', Times, serif;
+.row .col-md-8 h1 {
+  text-align: center;
+  margin-top: 12vmin;
+  color: rgb(57, 68, 77);
+  width: 100%;
+  font-size: 8vmin;
+  font-family: "GFS Didot", "Times New Roman", Times, serif;
 }
 
 @media (max-width: 768px) {
-    .container-fluid .row {
-        padding: 12vmin 20vmin;
-    }
+  .container-fluid .row {
+    padding: 12vmin 20vmin;
+  }
 
-    .row .col-md-8 h2 {
-        margin-top: 20vmin;
-        font-size: 14vmin;
-    }
+  .row .col-md-8 h2 {
+    margin-top: 20vmin;
+    font-size: 14vmin;
+  }
 }
 
 .keimeno {
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 0 10vmin;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 0 10vmin;
 }
 
 .cardsection {
-    padding-top: 5vmin;
+  padding-top: 5vmin;
 }
 
 .card {
-    width: 100%;
-    padding: 5vmin;
-    margin: 5vmin 10vmin;
+  width: 100%;
+  padding: 5vmin;
+  margin: 5vmin 10vmin;
 }
 
 .card img {
-    padding: 0 5vmin 2vmin 5vmin;
+  padding: 0 5vmin 2vmin 5vmin;
 }
 
 .card-title {
-    font-weight: bold;
-    padding: 0 2rem;
+  font-weight: bold;
+  padding: 0 2rem;
 }
 
 .card-text {
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
