@@ -1,24 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
-
+@import url(https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet);
 * {
   box-sizing: border-box;
 }
-
 html {
   overflow: hidden;
   height: 100%;
 }
-
 body {
   height: 100%;
   overflow: auto;
 }
-
 header,
 section {
   overflow-x: hidden;
 }
-
 :root {
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
@@ -28,101 +23,81 @@ section {
   --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
-
 header a {
-  font-family: "Arial", serif;
+  font-family: Arial, serif;
   font-size: 1em;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
-  color: black;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {
-  background-color: rgb(121, 247, 178);
+  background-color: #79f7b2;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 header .navbar {
   margin-bottom: 6em;
 }
-
 @media (max-width: 768px) {
   header .navbar {
-    margin-bottom: 0em;
+    margin-bottom: 0;
   }
 }
-
 header .nav-item:last-child {
   padding-right: 10.5em;
 }
-
 header .nav-item {
   padding: 0.9em;
   padding-right: 2em;
 }
-
 header #navbarNav {
   padding-left: 3rem;
 }
-
 header .navbar-brand {
   padding-left: 2vmin;
 }
-
 header .navbar-brand img {
   padding-right: 15px;
   filter: invert(100%);
   max-width: 100px;
 }
-
 @media (min-width: 768px) {
   header .navbar-brand {
     padding-left: 8rem;
   }
 }
-
 header .nav-link {
-  color: white;
+  color: #fff;
 }
-
 header .nav-link:hover {
-  color: rgb(202, 231, 98);
+  color: #cae762;
 }
-
 header .navbar-text {
-  color: white;
+  color: #fff;
   padding-left: 30vmin;
 }
-
 header .row .col-md-7 {
   padding: 15vmin 5vmin 15vmin 5vmin;
 }
-
 header .row .col-md-5 {
   padding: 4.2vmin 15vmin;
 }
-
 header .row .col-md-5 img {
   width: 90%;
 }
-
 header {
   background-image: url(/assets/wallpaper.jpg);
   background-repeat: no-repeat;
@@ -130,56 +105,46 @@ header {
   background-position: center;
   width: 100%;
 }
-
 @media (max-width: 768px) {
   header .container-fluid .row {
-    padding: 6vmin 0vmin;
+    padding: 6vmin 0;
   }
 }
-
 header .container-fluid .col-md-7 {
-  font-family: "Rubik", sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 1.5rem;
 }
-
 header .container-fluid .col-md-7 h6 {
   padding: 1vmin;
   letter-spacing: 4px;
   font-size: 4vmin;
 }
-
 header .container-fluid .col-md-7 h1 {
   font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
+  font-weight: 700;
+  padding: 0.1em 0;
 }
-
 header .container-fluid .col-md-7 p {
-  padding: 1vmin 0vmin;
+  padding: 1vmin 0;
 }
-
 .primary-btn {
   border-radius: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .section-2 h2 {
   font-size: 42px;
   padding: 6vmin 0 1vmin 0;
 }
-
 .section-2 h3 {
   font-size: 34px;
   line-height: 56px;
   padding: 2vmin 0 4vmin 0;
 }
-
 .section-2 p {
   font-size: 25px;
   padding: 2.4vmin;
   line-height: 48px;
 }
-
 @media (max-width: 768px) {
   .section-2 p {
     font-size: 22px;
@@ -187,132 +152,106 @@ header .container-fluid .col-md-7 p {
     line-height: 34px;
   }
 }
-
 .photos {
   padding: 2rem 3rem 2rem 3rem;
 }
-
 .section-3 h2 {
   padding: 6vmin 0 5vmin 0;
 }
-
 .purchase > h1 {
   padding-top: 8vmin;
   padding-bottom: 1.2em;
   font-family: var(--Arial);
 }
-
 .purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
   padding-bottom: 10vmin;
 }
-
 .purchase .cards .card {
   width: 22rem;
   margin: 3vmin 3vmin 8vmin 3vmin;
 }
-
 .cards div {
   padding: 0;
   margin: 0;
 }
-
 .cards .title {
   background: rgba(208, 241, 241, 0.199);
   padding: 1.4em 2.5em;
   font-size: 2vmin;
 }
-
 .card .card-text {
   padding: 1rem 1rem;
   color: var(--light-black);
 }
-
 .card-body .pricing {
   background: rgba(208, 241, 241, 0.199);
 }
-
 .card-body .pricing > h1 {
   font-size: 10vmin;
   padding: 1em 0.5em;
 }
-
 .card-body .pricing > img {
   max-height: 50vmin;
   padding: 1vmin;
 }
-
 .card-body .pricing .btn {
   margin-top: 4vmin;
 }
-
 #products {
-  color: gainsboro;
+  color: #dcdcdc;
 }
-
 footer {
   overflow-x: hidden;
   padding: 4vmin 8vmin 6vmin 8vmin;
 }
-
 .media-29101 img {
   margin-bottom: 20px;
 }
-
 .media-29101 h3 {
   font-size: 18px;
   font-weight: 900 !important;
 }
-
 .media-29101 h3 a {
   color: #6c757d;
 }
-
 .owl-2-style .owl-nav {
   display: none;
 }
-
 .owl-2-style .owl-dots {
   text-align: center;
   position: relative;
   bottom: -30px;
 }
-
 .owl-2-style .owl-dots .owl-dot {
   display: inline-block;
 }
-
 .owl-2-style .owl-dots .owl-dot span {
   display: inline-block;
   width: 15px;
   height: 3px;
-  border-radius: 0px;
-  background: #cccccc;
+  border-radius: 0;
+  background: #ccc;
   -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   margin: 3px;
 }
-
 .owl-2-style .owl-dots .owl-dot.active span {
   background: #135516;
 }
-
 .owl-2-style .owl-dots .owl-dot:active,
 .owl-2-style .owl-dots .owl-dot:focus {
-  outline: none;
+  outline: 0;
 }
-
 .menu-text {
-  color: white;
+  color: #fff;
   padding-right: 2vmin;
 }
-
 .navbar-toggler {
-  border-color: white;
+  border-color: #fff;
 }
-
 @media (min-width: 1850px) {
   .navbar-expand-custom {
     flex-direction: row;
