@@ -1,2 +1,2 @@
-User-Agent: *Disallow:Sitemap: https://terra21olives.github.io/
-Allow:/sitemap.xml Sitemap: https://astakosolives.com/sitemap.xml 
+User-Agent: *Disallow:
+Sitemap: https://astakosolives.com/sitemap.xml 
