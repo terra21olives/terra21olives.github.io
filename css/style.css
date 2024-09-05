@@ -283,3 +283,7 @@ footer {
 a {
   color: #fff;
 }
+
+span.underline {
+  text-decoration: underline;
+}
