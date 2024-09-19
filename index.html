@@ -75,7 +75,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -86,13 +86,28 @@
     fbq('init', '1074839674288660');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
+  <noscript><img height="1" width="1" class="fbpixel"
       src="https://www.facebook.com/tr?id=1074839674288660&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P4N2GT2T');</script>
+  <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4N2GT2T" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="container-fluid p-0">
       <nav class="navbar navbar-expand-custom">
@@ -186,7 +201,7 @@
           <div class="col-md-6 col-sm-12 text-white text-center">
             <p>
               Since I was a child I have felt a strong bond with the olive tree. Then in my adult years I realized that
-              the <a href="./posts/03-Olea-Europaea.html">Olive
+              the <a href="./posts/03-olea-europaea.html">Olive
                 tree</a> has always been a part of my inner self, an integral part of my life purpose. <br /> <br />
               In both, days of joy and days of sadness, I could walk for hours in the olive groves, being lost in the
               beauty and the serenity of the centennial olive trees.</p>
@@ -454,7 +469,7 @@
               <h6 class="text-uppercase fw-bold mb-4">
                 Contact
               </h6>
-              <p><i class="fas fa-home me-3"></i> Dimotiki Odos 1, Aitoloakarnania, 30006, Astakos, GR</p>
+              <p><i class="fas fa-home me-3"></i> Address: Dimotiki Odos, Aitoloakarnania, 30006, Astakos, GR</p>
               <p>
                 <i class="fas fa-envelope me-3"></i>
                 <a

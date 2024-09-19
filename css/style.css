@@ -337,3 +337,7 @@ span.underline {
   background-color: darkolivegreen;
   margin-top: 6vmin;
 }
+
+.fbpixel {
+  display: none;
+}
