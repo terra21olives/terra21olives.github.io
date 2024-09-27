@@ -341,3 +341,8 @@ span.underline {
 .fbpixel {
   display: none;
 }
+
+.gtag {
+  display: none;
+  visibility: hidden;
+}
